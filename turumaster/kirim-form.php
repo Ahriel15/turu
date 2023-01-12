@@ -1,11 +1,18 @@
 <?php
-  $to = "AsriellDre1@outlook.com";
+  $to = "tatazurel@gmail.com";
   $subject = "Permintaan Konsultasi Klinik Gigi Anda.";
-  $message = "Nama: " . $_POST["name"] . "\nEmail: " . $_POST["email"] . "\nKeluhan: " . $_POST["reason"] . "\nWaktu Konsultasi:" . $_POST["time"];
+  $message = "Nama: " . $_POST["name"] . "\nEmail: " . $_POST["email"] . "\nNo. Telpon: " . $_POST["phone"] . "\nKeluhan: " . $_POST["reason"] . "\nDokter yang dipilih: " . $_POST["doctor"]. "\nHari: " . $_POST["day"]. "\nJam: " . $_POST["Jam"];
   $headers = "From: " . $_POST["email"];
   
   if(mail($to, $subject, $message, $headers)){
-  echo "Form terkirim ke email server";} else {
-    echo "email gagal terkirim";
-  }
+  echo "<script language=\"javascript\">
+  alert (\"form anda telah dikirim :)\")
+  document.location=\"index.php\";
+  </script>";} 
+  else {
+    echo "<script language=\"javascript\">
+    alert (\"form gagal terkirim :(\")
+    document.location=\"index.php\";
+    </script>";
+  } 
 ?>
