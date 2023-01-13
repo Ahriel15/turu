@@ -1,0 +1,20 @@
+#consultation-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #dddddd;
+  }
+  
