@@ -16,22 +16,21 @@
     </script>";
   } 
 ?>
-<?php
+  <?php
   $conn = mysqli_connect("localhost", "root", "", "db_form");
   $name = $_POST["name"];
   $email = $_POST["email"];
-  $phone = $_POST["phone"];
+  $telpon = $_POST["phone"];
   $reason = $_POST["reason"];
   $doctor = $_POST["doctor"];
   $day = $_POST["day"];
   $Jam = $_POST["Jam"];
-  $kirim = $_POST["kirim"];
+  $status = $_POST["status"];
+  $id = $_POST["id"];
   
 
 
-
-  // Insert form data into the database
-  $query = "INSERT INTO db_form  VALUES ('$name', '$email', '$phone', '$reason', '$doctor', '$day', '$Jam', '$kirim' )";
+  $query = "INSERT INTO db_form  VALUES ('$name', '$email', '$telpon', '$reason', '$doctor', '$day', '$Jam', '$status', '$id')";
   if (mysqli_query($conn,$query)){
     echo"<script language=\"javascript\">
     alert (\"Pesan anda berhasil dikirimkan\")
