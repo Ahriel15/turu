@@ -42,7 +42,7 @@
           <li class="contact-item">
             <ion-icon name="mail-outline"></ion-icon>
 
-            <a href="mailto:Asrildre7@outlook.com" class="contact-link">Asrildre7@outlook.com</a>
+            <a href="mailto:Asrildre7@outlook.com" class="contact-link">tatazurel@gmail.com</a>
           </li>
 
           <li class="contact-item">
@@ -144,12 +144,7 @@
              Sudah membuka klinik lebih dari 10 tahun.
             </p>
 
-            <form action="" class="hero-form">
-              <input type="email" name="email_address" aria-label="email" placeholder="Your Email Address..." required
-                class="email-field">
-
-              <button type="submit" class="btn">Ajukan Konsultasi</button>
-            </form>
+      
 
           </div>
 
@@ -657,7 +652,7 @@
               <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <a href="mailto:Asrildre7@outlook.com" class="footer-link">Asrielldre7@outlook.com</a>
+            <a href="mailto:tatazurel@gmail.com" class="footer-link">tatazurel@gmail.com</a>
           </li>
 
         </ul>
